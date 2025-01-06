@@ -1,0 +1,108 @@
+.top-menu a:hover{
+    color: #03c75a;
+    cursor: pointer;
+    text-decoration-color: #03c75a;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+.top-logo:hover{
+    cursor: pointer;
+}
+
+/* .main-banner img:hover{
+    cursor: pointer;
+} */
+.main-ban{
+    cursor: pointer;
+}
+.main-ban .swiper-button-next:hover, .main-ban .swiper-button-prev:hover{
+    color: #03c75a;
+}
+
+.searchbar:hover{
+    cursor: pointer;
+    border: none;
+}
+.search-button:hover{
+    cursor: pointer;
+    background-color: #03c75a;
+    color: white;
+}
+.search-text{
+    outline: none;
+}
+.search-text:hover{
+    border-bottom: 3px solid #03c75a;
+}
+.hashtag a:hover{
+    cursor: pointer;
+    color: #03c75a;
+}
+.ha-two a:hover{
+    color: #03c75a;
+}
+
+.mid-media:hover{
+    cursor: pointer;
+}
+.mid-sub-text h4:hover , .mid-sub-text span:hover{
+    text-decoration: underline;
+}
+.mid-title:hover{
+    color: #03c75a;
+}
+/* .blog-sub-image img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+} */
+/* .blog-sub-image:hover{
+    overflow: hidden;
+} */
+.blog-sub-image img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    border-radius: 10px;
+}
+.blog-wrighter:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.today-choice-blog .swiper-button-prev:hover, .today-choice-blog .swiper-button-next:hover{
+    color: #03c75a;
+    cursor: pointer;
+}
+
+.blog-market:hover, .blog-advertisement:hover, .blog-news:hover{
+    cursor: pointer;
+    color: #03c75a;
+}
+.today-choice:hover{
+    cursor: pointer;
+}
+
+.announcement{
+    cursor: pointer;
+}
+.ann-top:hover{
+    text-decoration: underline;
+}
+.ann-list-text li:hover{
+    text-decoration: underline;
+    font-weight: 800;
+    color: #000000;
+    cursor: pointer;
+}
+
+.another-menu-list:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #03c75a;
+    font-weight: bolder;
+}
+
+.footer-list-text a:hover{
+    color: #000000;
+    font-weight: bolder;
+    cursor: pointer;
+}

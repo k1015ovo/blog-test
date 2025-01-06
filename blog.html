@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naver blog</title>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://kit.fontawesome.com/a1cf729705.js" crossorigin="anonymous"></script>
+
+    <link href="../blog/blog.css" rel="stylesheet">
+    <link href="../blog/blog-hover.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="all">
+        <header> <!--헤더부분-->
+            <div class="top-logo"> <!--맨 위 헤더 부분 로고-->
+                <img src="../blog/img/네이버 블로그.png"> <!--이미지 삽입 피료 : 로고 이미지-->
+            </div>
+            <ul class="top-menu"> <!--홈 로그인 회원가입 내블로그 서로이웃-->
+                <li class="menu-text">
+                    <a href="#1">홈</a>
+                </li>
+                <li class="menu-text">
+                    <a href="#1">로그인</a>
+                </li>
+                <li class="menu-text">
+                    <a href="#1">회원가입</a>
+                </li>
+                <li class="menu-text">
+                    <a href="#1">내블로그</a>
+                </li>
+                <li class="menu-text">
+                    <a href="#1">서로이웃</a>
+                </li>
+            </ul>
+        </header>
+
+        <!-- <div class="main-banner">//메인배너
+            <ul class="bxslider">
+                <li>
+                    <a href="https://campaign.naver.com/weeklydiary/" target="_blank">
+                       <img src="../blog/img/네이버 블챌 배너.png" alt="Slide 1" /> 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.naver.com/naverblog_market/223647715511" target="_blank">
+                        <img src="../blog/img/메인배너2.png" alt="Slide 2" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://happybean.naver.com/flower/event/60" target="_blank">
+                        <img src="../blog/img/메인배너3.png" alt="Slide 3" />
+                    </a>
+                </li>
+            </ul> 
+        </div> -->
+
+          <!-- Swiper -->
+        <div class="swiper main-ban">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../blog/img/네이버 블챌 배너.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../blog/img/메인배너2.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../blog/img/메인배너3.png">
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+
+        <div class="searchbar"> <!--검색바-->
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="search-text" type="text" placeholder="지금 바로 원하는 해시태그를 검색하세요!">
+            <button class="search-button">검색</button>
+        </div>
+
+        <div class="hashtag"> <!--지금 뜨는 해시태그-->
+            <ul class="hashtag-all">
+                <div class="ha-one">
+                    <li>
+                        <a href="#1">#라이프스타일</a>
+                    </li>
+                    <li>
+                        <a href="#1">#여행기록</a>
+                    </li>
+                    <li>
+                        <a href="#1">#건강과웰빙</a>
+                    </li>
+                    <li>
+                        <a href="#1">#맛집추천</a>
+                    </li>       
+                    <li>
+                        <a href="#1">#자기계발</a>
+                    </li>
+                </div>
+                <br>
+                <div class="ha-two">
+                    <li>
+                        <a href="#1">#트렌드</a>
+                    </li>
+                    <li>
+                        <a href="#1">#일상브이로그</a>
+                    </li>
+                    <li>
+                        <a href="#1"> #창의적인아이디어</a>
+                    </li>
+                    <li>
+                        <a href="#1">#자연속으로</a>
+                    </li>
+                    <li>
+                        <a href="#1">#패션스타일링</a>
+                    </li>
+                    <li>
+                        <a href="#1">#디지털노마드</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="today-choice-blog"> <!--오늘의 추천글 234-267-->
+              
+            <div class="swiper today-choice"> <!-- Swiper -->
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../blog/img/강변2.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../blog/img/카페2.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../blog/img/색상2.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../blog/img/여름패션2.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../blog/img/들판2.png">
+                </div>
+            </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+
+            </div>
+        </div> 
+
+        <div class="mid-media"> <!--중간 추천글 카테고리-->
+
+            <div class="mid one-box"> <!--추천글 1 자연속으로-->
+                <h2 class="mid-title">#자연속으로</h2>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text"> 
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/자연소리.jpg">
+                            <p class="blog-profile">자연 소리</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">자연 속에서 보내는 하루</h4>
+                        <span class="blog-sub-text">주말에는 북적거리는 도심을 떠나 조용한 자연 속으로 떠나보세요. 숲길을 따라 걷는 산책과 맑은 공기, 여유로운 시간이 필요한 이유!</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>34</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">54</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">3일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/오솔길.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text"> 
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/소소한일상이야기.jpg">
+                            <p class="blog-profile">소소한 일상이야기</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">물소리 따라 걷는 강변의 낭만</h4>
+                        <span class="blog-sub-text">강변을 따라 걷다 보면 생각이 정리되고 마음이 평화로워지는 순간이 찾아와요. 도심 속 작은 자연에서 힐링을 경험해보세요.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>48</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">93</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">9일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/강변.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text"> 
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/세상을가지다.jpg">
+                            <p class="blog-profile">복돌's 세상을 가지다</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">푸른 초원에서 찾은 마음의 평화</h4>
+                        <span class="blog-sub-text">끝없이 펼쳐진 초원을 바라보며 느끼는 고요한 일상 속의 스트레스를 내려놓고 자연 속에서 충전해 보세요. </span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>45</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">78</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">4일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/들판.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid tow-box"> <!--추천글 2 패션스타일링-->
+                <h2 class="mid-title">#패션스타일링</h2>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text">
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/나노피코.jpg">
+                            <p class="blog-profile">나노피코</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">나에게 어울리는 색 찾기</h4>
+                        <span class="blog-sub-text">퍼스널 컬러가 대세! 옷을 고를 때 나만의 색을 찾는 것이 중요하죠. 피부톤에 맞는 색상으로 더 돋보이는 스타일링을 완성해보세요.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>56</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">72</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">6일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/색상.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text"> 
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/잡화점.jpg">
+                            <p class="blog-profile">요구르트 잡화점</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">데일리 캐주얼 스타일링</h4>
+                        <span class="blog-sub-text">바쁜 일상에서도 세련된 캐주얼을 연출할 수 있어요. 기본 아이템에 포인트 하나면 완성되는 데일리 룩 팁! 특별한 아이템으로 특별해지는 하루.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>78</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">29</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">5일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/데일리룩.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text"> 
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/김토순.jpg">
+                            <p class="blog-profile">내이름은김토순</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">계절별 패션 트렌드 알아보기</h4>
+                        <span class="blog-sub-text">계절마다 찾아오는 패션 트렌드, 어떤 옷을 입어야 할지 고민된다면? 올여름 핫한 스타일로 언제 어디서나 뜨거운 주목받아 보세요.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>102</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">79</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">1일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/여름패션.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid three-box"><!--추천글 3 맛집추천-->
+                <h2 class="mid-title">#맛집추천</h2>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text">
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/묵음소리.jpg">
+                            <p class="blog-profile">묵음소리</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">골목 속 작은 식당들</h4>
+                        <span class="blog-sub-text">대로변보다는 작은 골목 속 숨은 맛집들이 주는 감동이 있죠. 특색 있는 메뉴와 따뜻한 분위기의 작은 가게들. 작지만 꽉 찬 풍족한 골목길 식당.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>48</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">21</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">7일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/골목.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text">
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/정보공유.jpg">
+                            <p class="blog-profile">일상의 유용한 정보 공유</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">혼자서 즐기는 카페 투어</h4>
+                        <span class="blog-sub-text">조용한 시간을 갖고 싶을 때 혼자서 카페 투어는 어떠세요? 카페들에서 찾은 내 취향 가득한 공간. 조용한 나의 하루를 조금 더 특별하게.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>91</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">39</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">2일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/카페.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="mid-sub-text">
+                    <div class="blog-text">
+                        <div class="blog-wrighter">
+                            <img src="../blog/img/나의일상여행기.jpg">
+                            <p class="blog-profile">나의 일상 여행기</p>
+                            <div class="blog-w-icon">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <h4 class="blog-text-title">한 번쯤 꼭 가봐야 할 맛집 리스트</h4>
+                        <span class="blog-sub-text">유명한 맛집이라면 한 번쯤은 경험해 보고 싶죠. 이미 소문난 맛집들을 한 번에 정리해 소개해 드려요.</span>
+                        <div class="blog-under-text">
+                            <i class="fa-solid fa-heart"></i>
+                            <p blog-under-sub-text>98</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <p class="blog-under-sub-text">59</p>
+                            <div class="date">
+                                <p class="blog-under-date-text">5일 전</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-sub-image">
+                            <img src="../blog/img/음식.jpg"> <!--이미지 필요 : 썸네일-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mini-banner">
+            <img src="../blog/img/미니배너2.png">
+        </div>
+
+        <div class="blog-guide"> <!--블로그 가이드 -->
+            <div class="blog-market"> <!--블로그 마켓 가입-->
+                <div class="blog-market-image">
+                    <i class="fa-solid fa-bag-shopping"></i> <!--이미지 삽입 필요-->
+                </div>
+                <div class="blog-market-text">
+                    <h4 class="blog-market-text">온라인 셀럽을 위한</h4>
+                    <h3 class="blog-market-text-tow">블로그 마켓 가입</h3>
+                </div>
+            </div>
+
+            <div class="blog-advertisement"> <!--블로그 광고글 가이드-->
+                <div class="blog-advertisemant-image">
+                    <i class="fa-solid fa-pen-to-square"></i> <!--이미지 삽입 필요-->
+                </div>
+                <div class="blog-advertisement-text">
+                    <h4 class="blog-market-text">정직한 리뷰를 위한</h4>
+                    <h3 class="blog-market-text-tow">협찬 광고글 가이드</h3>
+                </div>
+            </div>
+
+            <div class="blog-news"> <!--블로그 새 소식-->
+                <div class="blog-news-image">
+                    <i class="fa-solid fa-newspaper"></i> <!--이미지 삽입 필요-->
+                </div>
+                <div class="blog-news-text">
+                    <h4 class="blog-market-text">누구보다 발빠르게</h4>
+                    <h3 class="blog-market-text-tow">블로그 새소식</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bot-content"> <!--공지사항 기타 메뉴-->
+            <div class="announcement"> <!--공지사항-->
+                <div class="ann-top">
+                    <i class="fa-regular fa-bell"></i>
+                    <h3 class="main-title-text">공지사항</h3>
+                </div>
+                <ul class="ann-list-text">
+                    <li>[안내] 모바일웹 에디터에서 음악 글감 첨부, 장소 전화걸기 기능이 종료됩니다.</li>
+                    <li>[안내] 의약품 류 불법 온라인 유통 관련 유의사항 안내</li>
+                    <li>[안내] 모먼트 에디터/뷰어가 종료됩니다.</li>
+                    <li>[안내] 블로그 2022년 이전 작성된 글의 책 글감이 일부 미노출 될 수 있습니다.</li>
+                    <li>[안내] 개정 '보험사기방지 특별법' 시행 관련 유의사항 안내</li>
+                </ul>
+            </div>
+
+            <ul class="another"> <!--기타 메뉴-->
+                <div class="ano-one">
+                    <div class="another-menu-list"> <!--블로그 앱 간편 설치-->
+                        <i class="fa-solid fa-download"></i>
+                        <h5>블로그 앱 간편 설치</h5>
+                    </div>
+        
+                    <div class="another-menu-list"> <!--개발 가이드-->
+                        <i class="fa-solid fa-laptop"></i>
+                        <h5>개발 가이드</h5>
+                    </div>
+        
+                    <div class="another-menu-list"> <!--블로그 글 권리보호-->
+                        <i class="fa-solid fa-user-shield"></i>
+                        <h5>블로그 글 권리보호</h5>
+                    </div>
+                    </div>
+    
+                <div class="ano-two">
+                    <div class="another-menu-list"> <!--블로그 스마트봇-->
+                        <i class="fa-solid fa-robot"></i>
+                        <h5>블로그 스마트봇</h5>
+                    </div>
+        
+                    <div class="another-menu-list"> <!--블로그 고객센터-->
+                        <i class="fa-solid fa-comments"></i>
+                        <h5>블로그 고객센터</h5>
+                    </div>
+        
+                    <div class="another-menu-list"> <!--신고센터-->
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <h5>신고센터</h5>
+                    </div>
+        
+                    <div class="another-menu-list"> <!--해피빈 콩받기 안내-->
+                        <i class="fa-solid fa-seedling"></i>
+                        <h5>해피빈 콩받기 안내</h5>
+                    </div>
+                </div>
+            </ul>
+ 
+        </div>
+
+        <footer class="footer"> <!--푸터-->
+            <ul class="footer-text">
+                <li class="footer-list-text">
+                    <a href="#1"> 이용약관 </a>
+                </li>
+                <li class="footer-list-text">
+                    <a href="#1">블로그 서비스 운영정책</a>
+                </li>
+                <li class="footer-list-text">
+                    <a href="#1">개인정보처리방침</a>
+                </li>
+                <li class="footer-list-text">
+                    <a href="#1">책임의 한계와 법적고지</a>
+                </li>
+                <li class="footer-list-text">
+                    <a href="#1">글 권리 보호하기</a>
+                </li>
+                <li class="footer-list-text">
+                    <a href="#1">게시 중단 요청 서비스</a>
+                </li>
+            </ul>
+            <span>&copy;NAVER Corp. All Rights Reserved.</span>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+<!-- <script>
+    $(document).ready(function() {
+        $('.bxslider').bxSlider({
+            mode: 'horizontal',
+            slideWidth: 1400,
+            minSlides: 1,
+            maxSlides: 1,
+            moveSlides: 1,
+            slideMargin: 0,
+            pause: 5000,
+            auto: true,
+            controls: true,
+            pager: true,
+            infiniteLoop: true,
+            useCSS: false // CSS 전환 대신 JavaScript 전환 사용
+        });
+    });
+</script> -->
+
+<!-- Swiper JS : main banner--> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper : main banner -->
+<script>
+    var swiper = new Swiper(".main-ban", {
+      // 네비게이션 버튼 설정
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      // 자동 재생 설정
+      autoplay: {
+        delay: 3000, // 3초 간격으로 슬라이드 전환
+        disableOnInteraction: false // 사용자가 슬라이드를 클릭해도 자동 재생이 멈추지 않음
+      },
+      // 반복 설정 (슬라이드가 끝나면 다시 처음으로 돌아가서 반복)
+      loop: true
+    });
+</script>
+
+<!-- Initialize Swiper : today choice blog-->
+<script>
+  var swiper = new Swiper(".today-choice", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    loop: true,
+    loopAdditionalSlides:1,
+    slidesPerView: 2,
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 5000, // 5초 간격으로 슬라이드 전환
+        disableOnInteraction: false // 사용자가 슬라이드를 클릭해도 자동 재생이 멈추지 않음
+      },
+  });
+</script>
